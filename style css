@@ -1,1 +1,62 @@
+/* style.css */
+
+/* Style global */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Titres principaux */
+h1 {
+  color: #004080;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Sous-titres */
+h2 {
+  color: #0066cc;
+  margin-bottom: 10px;
+  border-left: 4px solid #0066cc;
+  padding-left: 8px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Listes */
+ul {
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Paragraphes */
+p {
+  margin: 10px 0;
+}
+
+/* Accent sur mots importants */
+strong {
+  color: #004080;
+}
+
+/* Effet hover sur sections */
+section:hover {
+  background-color: #f0f8ff;
+  transition: background-color 0.3s ease;
+}
 
